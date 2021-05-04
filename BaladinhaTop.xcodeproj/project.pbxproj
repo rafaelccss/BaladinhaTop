@@ -17,6 +17,7 @@
 		53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53318F9826417C19003BEA59 /* LaunchScreen.storyboard */; };
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
+		533566862641C1B300D0D0D2 /* PerfilAnfitriao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533566852641C1B300D0D0D2 /* PerfilAnfitriao.storyboard */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		53318FAB26417C19003BEA59 /* BaladinhaTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaladinhaTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533566852641C1B300D0D0D2 /* PerfilAnfitriao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PerfilAnfitriao.storyboard; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +109,7 @@
 			children = (
 				53318F9126417C18003BEA59 /* ViewController.swift */,
 				53318F9326417C18003BEA59 /* Main.storyboard */,
-				EEC75CF9264197100060A1C6 /* Anfitriao */,
+				533566842641C19B00D0D0D2 /* Anfitriao */,
 				534D6BDC26418F59009DB26B /* Baladeiro */,
 				534D6BD926418E13009DB26B /* TelasDeEntrada */,
 				EEC75CFA2641972D0060A1C6 /* TelaDeLogin */,
@@ -133,6 +135,14 @@
 				53318FB126417C19003BEA59 /* Info.plist */,
 			);
 			path = BaladinhaTopUITests;
+			sourceTree = "<group>";
+		};
+		533566842641C19B00D0D0D2 /* Anfitriao */ = {
+			isa = PBXGroup;
+			children = (
+				533566852641C1B300D0D0D2 /* PerfilAnfitriao.storyboard */,
+			);
+			path = Anfitriao;
 			sourceTree = "<group>";
 		};
 		534D6BD726418D2B009DB26B /* Uteis */ = {
@@ -169,13 +179,6 @@
 				534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */,
 			);
 			path = Baladeiro;
-			sourceTree = "<group>";
-		};
-		EEC75CF9264197100060A1C6 /* Anfitriao */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Anfitriao;
 			sourceTree = "<group>";
 		};
 		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533566862641C1B300D0D0D2 /* PerfilAnfitriao.storyboard in Resources */,
 				16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */,
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
