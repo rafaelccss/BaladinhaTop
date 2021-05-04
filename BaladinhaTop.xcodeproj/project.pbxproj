@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
-		16CF70B0264183580056D39C /* ViewControllerBemVindo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* ViewControllerBemVindo.swift */; };
+		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
 		53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8D26417C18003BEA59 /* AppDelegate.swift */; };
 		53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8F26417C18003BEA59 /* SceneDelegate.swift */; };
 		53318F9226417C18003BEA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F9126417C18003BEA59 /* ViewController.swift */; };
@@ -17,6 +17,7 @@
 		53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53318F9826417C19003BEA59 /* LaunchScreen.storyboard */; };
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
+		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
-		16CF70AF264183580056D39C /* ViewControllerBemVindo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBemVindo.swift; sourceTree = "<group>"; };
+		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
 		53318F8A26417C18003BEA59 /* BaladinhaTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaladinhaTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318F8D26417C18003BEA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53318F8F26417C18003BEA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		53318FAB26417C19003BEA59 /* BaladinhaTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaladinhaTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +105,14 @@
 		53318F8C26417C18003BEA59 /* BaladinhaTop */ = {
 			isa = PBXGroup;
 			children = (
-				53318F8D26417C18003BEA59 /* AppDelegate.swift */,
-				53318F8F26417C18003BEA59 /* SceneDelegate.swift */,
 				53318F9126417C18003BEA59 /* ViewController.swift */,
 				53318F9326417C18003BEA59 /* Main.storyboard */,
-				16CF70AD264182390056D39C /* BemVindoScreen.storyboard */,
-				53318F9626417C19003BEA59 /* Assets.xcassets */,
-				53318F9826417C19003BEA59 /* LaunchScreen.storyboard */,
-				53318F9B26417C19003BEA59 /* Info.plist */,
-				16CF70AF264183580056D39C /* ViewControllerBemVindo.swift */,
+				534D6BDA26418EB0009DB26B /* Anfitrião */,
+				534D6BDC26418F59009DB26B /* Baladeiro */,
+				534D6BD926418E13009DB26B /* TelasDeEntrada */,
+				534D6BDB26418EEA009DB26B /* TelaDeLogin */,
+				534D6BD726418D2B009DB26B /* Uteis */,
+				534D6BD826418D54009DB26B /* Recursos */,
 			);
 			path = BaladinhaTop;
 			sourceTree = "<group>";
@@ -132,6 +133,57 @@
 				53318FB126417C19003BEA59 /* Info.plist */,
 			);
 			path = BaladinhaTopUITests;
+			sourceTree = "<group>";
+		};
+		534D6BD726418D2B009DB26B /* Uteis */ = {
+			isa = PBXGroup;
+			children = (
+				53318F8F26417C18003BEA59 /* SceneDelegate.swift */,
+				53318F8D26417C18003BEA59 /* AppDelegate.swift */,
+			);
+			path = Uteis;
+			sourceTree = "<group>";
+		};
+		534D6BD826418D54009DB26B /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				53318F9626417C19003BEA59 /* Assets.xcassets */,
+				53318F9B26417C19003BEA59 /* Info.plist */,
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		534D6BD926418E13009DB26B /* TelasDeEntrada */ = {
+			isa = PBXGroup;
+			children = (
+				53318F9826417C19003BEA59 /* LaunchScreen.storyboard */,
+				16CF70AF264183580056D39C /* BemVindoViewController.swift */,
+				16CF70AD264182390056D39C /* BemVindoScreen.storyboard */,
+			);
+			path = TelasDeEntrada;
+			sourceTree = "<group>";
+		};
+		534D6BDA26418EB0009DB26B /* Anfitrião */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Anfitrião";
+			path = "Anfitrião";
+			sourceTree = "<group>";
+		};
+		534D6BDB26418EEA009DB26B /* TelaDeLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TelaDeLogin;
+			sourceTree = "<group>";
+		};
+		534D6BDC26418F59009DB26B /* Baladeiro */ = {
+			isa = PBXGroup;
+			children = (
+				534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */,
+			);
+			path = Baladeiro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */,
+				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
@@ -267,7 +320,7 @@
 			files = (
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
-				16CF70B0264183580056D39C /* ViewControllerBemVindo.swift in Sources */,
+				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
 				53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +499,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H2RJVTS74;
-				INFOPLIST_FILE = BaladinhaTop/Info.plist;
+				INFOPLIST_FILE = BaladinhaTop/Recursos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5H2RJVTS74;
-				INFOPLIST_FILE = BaladinhaTop/Info.plist;
+				INFOPLIST_FILE = BaladinhaTop/Recursos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
