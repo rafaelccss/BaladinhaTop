@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B1548C264190A000081D16 /* StoryboardParaMudar o nome depois.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B1548B264190A000081D16 /* StoryboardParaMudar o nome depois.storyboard */; };
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
 		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
 		53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8D26417C18003BEA59 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B1548B264190A000081D16 /* StoryboardParaMudar o nome depois.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "StoryboardParaMudar o nome depois.storyboard"; path = "BaladinhaTop/StoryboardParaMudar o nome depois.storyboard"; sourceTree = SOURCE_ROOT; };
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
 		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
 		53318F8A26417C18003BEA59 /* BaladinhaTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaladinhaTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +168,7 @@
 		534D6BDA26418EB0009DB26B /* Anfitrião */ = {
 			isa = PBXGroup;
 			children = (
+				16B1548B264190A000081D16 /* StoryboardParaMudar o nome depois.storyboard */,
 			);
 			name = "Anfitrião";
 			path = "Anfitrião";
@@ -294,6 +297,7 @@
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
+				16B1548C264190A000081D16 /* StoryboardParaMudar o nome depois.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
