@@ -107,10 +107,10 @@
 			children = (
 				53318F9126417C18003BEA59 /* ViewController.swift */,
 				53318F9326417C18003BEA59 /* Main.storyboard */,
-				53A430DE26419599000287FE /* Anfitriao */,
+				EEC75CF9264197100060A1C6 /* Anfitriao */,
 				534D6BDC26418F59009DB26B /* Baladeiro */,
 				534D6BD926418E13009DB26B /* TelasDeEntrada */,
-				534D6BDB26418EEA009DB26B /* TelaDeLogin */,
+				EEC75CFA2641972D0060A1C6 /* TelaDeLogin */,
 				534D6BD726418D2B009DB26B /* Uteis */,
 				534D6BD826418D54009DB26B /* Recursos */,
 			);
@@ -163,13 +163,6 @@
 			path = TelasDeEntrada;
 			sourceTree = "<group>";
 		};
-		534D6BDB26418EEA009DB26B /* TelaDeLogin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TelaDeLogin;
-			sourceTree = "<group>";
-		};
 		534D6BDC26418F59009DB26B /* Baladeiro */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,11 +171,18 @@
 			path = Baladeiro;
 			sourceTree = "<group>";
 		};
-		53A430DE26419599000287FE /* Anfitriao */ = {
+		EEC75CF9264197100060A1C6 /* Anfitriao */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Anfitriao;
+			sourceTree = "<group>";
+		};
+		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TelaDeLogin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
