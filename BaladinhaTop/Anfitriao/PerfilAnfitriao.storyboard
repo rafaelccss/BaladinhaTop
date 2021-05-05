@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,35 +8,117 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Chika do Barzim-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PerfilAnfitriao" id="Y6W-OH-hqX" customClass="PerfilAnfitriaoViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="BFest" translatesAutoresizingMaskIntoConstraints="NO" id="lsQ-4U-YeB">
-                                <rect key="frame" x="155" y="178" width="106" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="minhasFestas" translatesAutoresizingMaskIntoConstraints="NO" id="mpH-Xh-Otd">
-                                <rect key="frame" x="231" y="262" width="147" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R6v-1I-nH7">
+                                <rect key="frame" x="48" y="257" width="332" height="455"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hojeVouFestar" translatesAutoresizingMaskIntoConstraints="NO" id="7Yb-3u-sbt">
+                                        <rect key="frame" x="185" y="264" width="147" height="191"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="oferecerFesta" translatesAutoresizingMaskIntoConstraints="NO" id="CNs-dN-Xk2">
+                                        <rect key="frame" x="0.0" y="0.0" width="147" height="191"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="reputacao" translatesAutoresizingMaskIntoConstraints="NO" id="idO-BS-K9Y">
+                                        <rect key="frame" x="185" y="0.0" width="147" height="191"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="minhasFestas" translatesAutoresizingMaskIntoConstraints="NO" id="PcT-28-oN4">
+                                        <rect key="frame" x="0.0" y="264" width="147" height="191"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.51425378700000002" green="0.26661739330000001" blue="0.68483333390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="idO-BS-K9Y" secondAttribute="trailing" id="1nm-fW-9V2"/>
+                                    <constraint firstItem="PcT-28-oN4" firstAttribute="leading" secondItem="R6v-1I-nH7" secondAttribute="leading" id="6Iw-JC-eIM"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Yb-3u-sbt" secondAttribute="trailing" id="ETM-L5-sjB"/>
+                                    <constraint firstItem="CNs-dN-Xk2" firstAttribute="top" secondItem="R6v-1I-nH7" secondAttribute="top" id="GUJ-ua-dmN"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Yb-3u-sbt" secondAttribute="bottom" id="XPJ-eO-ayr"/>
+                                    <constraint firstAttribute="bottom" secondItem="PcT-28-oN4" secondAttribute="bottom" id="dra-U5-VmP"/>
+                                    <constraint firstItem="CNs-dN-Xk2" firstAttribute="leading" secondItem="R6v-1I-nH7" secondAttribute="leading" id="eBm-0j-4xH"/>
+                                    <constraint firstItem="idO-BS-K9Y" firstAttribute="top" secondItem="R6v-1I-nH7" secondAttribute="top" id="hGJ-JP-1tv"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="R6v-1I-nH7" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="213" id="Ay5-Vw-uan"/>
+                            <constraint firstItem="R6v-1I-nH7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="48" id="IgB-II-kBx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="R6v-1I-nH7" secondAttribute="bottom" constant="180" id="XWN-l2-76A"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="R6v-1I-nH7" secondAttribute="trailing" constant="48" id="a8Q-Ie-M1m"/>
+                            <constraint firstItem="R6v-1I-nH7" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="hY1-PM-Hfs"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Chika do Barzim" id="f67-4K-6cT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="zoF-yk-Wmm">
+                    <connections>
+                        <action selector="imageClick:" destination="Y6W-OH-hqX" id="Jjm-6k-me5"/>
+                        <segue destination="p8j-un-tmr" kind="show" identifier="transicaoReputacao" id="kAn-6H-Q82"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="139" y="87"/>
+            <point key="canvasLocation" x="68.115942028985515" y="86.383928571428569"/>
+        </scene>
+        <!--Vou Festar View Controller-->
+        <scene sceneID="C6J-OG-XTB">
+            <objects>
+                <viewController id="p8j-un-tmr" customClass="VouFestarViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hpu-EV-N4D">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBA-TG-8Jd">
+                                <rect key="frame" x="157" y="253" width="30" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctd-7d-0ln">
+                                <rect key="frame" x="172" y="321" width="54" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cec-nc-LCn">
+                                <rect key="frame" x="191" y="448" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51425378702092983" green="0.26661739329001338" blue="0.68483333394985002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="29"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5S3-dR-p9b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="X8x-L5-1cU"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qfo-gC-Rt4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="916" y="86"/>
         </scene>
     </scenes>
     <resources>
-        <image name="BFest" width="106" height="44"/>
-        <image name="minhasFestas" width="296" height="386"/>
+        <image name="hojeVouFestar" width="147" height="191"/>
+        <image name="minhasFestas" width="147" height="191"/>
+        <image name="oferecerFesta" width="147" height="191"/>
+        <image name="reputacao" width="147" height="191"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
