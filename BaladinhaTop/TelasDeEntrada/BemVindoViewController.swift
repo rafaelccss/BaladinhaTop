@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerBemVindo: UIViewController {
+class BemVindoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
