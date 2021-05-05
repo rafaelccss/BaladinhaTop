@@ -7,17 +7,24 @@
 
 import UIKit
 
+// proporção das cards do anfitrão 0,7696335079
+// proporcao de um card frente a largura do device 0,355072463768116
+// proporcao dos cards horizontais em relacao a largura do device 0,768115942028986
+
 class PerfilAnfitriaoViewController: UIViewController {
     
-    @IBOutlet weak var hojeVouFestar: UIImageView!
+    @IBOutlet weak var oferecerFesta: UIImageView!
+    @IBOutlet weak var reputacao: UIImageView!
     @IBOutlet weak var minhasFestas: UIImageView!
+    @IBOutlet weak var hojeVouFestar: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tapGesture = UITapGestureRecognizer (target: self, action: #selector(PerfilAnfitriaoViewController.imageClick(_:)))
-        
-        hojeVouFestar.addGestureRecognizer(tapGesture)
+//        let tapGesture = UITapGestureRecognizer (target: self, action: #selector(PerfilAnfitriaoViewController.imageClick(_:)))
+//        
+//        hojeVouFestar.addGestureRecognizer(tapGesture)
 
         // Do any additional setup after loading the view.
     }
@@ -25,11 +32,21 @@ class PerfilAnfitriaoViewController: UIViewController {
     @objc
     @IBAction func imageClick(_ sender:UITapGestureRecognizer){
         let myParty = sender.view
+        
+        if myParty == oferecerFesta {
+            performSegue(withIdentifier: "transicaoReputacao", sender: sender)
+        }
+        
+        if myParty == reputacao {
+            print("Reputação")
+        }
+        
+        
         if myParty == minhasFestas {
-            print("minhas festas")
+            print("Minhas festas")
         }
         if myParty == hojeVouFestar {
-            performSegue(withIdentifier: "transicaoReputacao", sender: sender)
+            print("Hoje vou festar")
         }
     }
 
