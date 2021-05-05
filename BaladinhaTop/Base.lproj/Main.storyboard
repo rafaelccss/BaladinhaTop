@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G5r-E4-NyH">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="vv3-8o-djq" kind="show" id="3vf-X0-Clh"/>
+                                    <segue destination="vv3-8o-djq" kind="show" id="vYQ-ha-8cQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="-143.30357142857142"/>
         </scene>
-        <!--BemVindoScreen-->
+        <!--PerfilAnfitriao-->
         <scene sceneID="uXx-DG-sQR">
             <objects>
-                <viewControllerPlaceholder storyboardName="BemVindoScreen" referencedIdentifier="BemVindoScreen" id="vv3-8o-djq" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="PerfilAnfitriao" referencedIdentifier="PerfilAnfitriao" id="vv3-8o-djq" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="JRv-Bt-tF3"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpe-CR-W96" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
