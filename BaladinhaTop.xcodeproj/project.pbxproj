@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */; };
+		1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */; };
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
 		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
 		53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8D26417C18003BEA59 /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplicacaoScreen.storyboard; sourceTree = "<group>"; };
+		1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicacaoViewController.swift; sourceTree = "<group>"; };
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
 		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
 		53318F8A26417C18003BEA59 /* BaladinhaTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaladinhaTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +163,8 @@
 				53318F9826417C19003BEA59 /* LaunchScreen.storyboard */,
 				16CF70AF264183580056D39C /* BemVindoViewController.swift */,
 				16CF70AD264182390056D39C /* BemVindoScreen.storyboard */,
+				1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */,
+				1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */,
 			);
 			path = TelasDeEntrada;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
+				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
+				1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */,
 				53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

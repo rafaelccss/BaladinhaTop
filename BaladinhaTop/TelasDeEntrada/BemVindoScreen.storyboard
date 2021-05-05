@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Bem Vindo View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="BemVindoScreen" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BemVindoScreen" id="Y6W-OH-hqX" customClass="BemVindoViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,9 +21,13 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="bemVindoMapImage" translatesAutoresizingMaskIntoConstraints="NO" id="WZw-wF-QI6">
                                         <rect key="frame" x="20" y="346" width="388" height="413"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="413" id="a9n-wu-5Kp"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Yjv-GX-fDK" appends="YES" id="MZd-x0-UIe"/>
+                                        </connections>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estamos felizes com sua visita" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pll-T4-fP1">
                                         <rect key="frame" x="40" y="161" width="234" height="180"/>
@@ -56,8 +60,25 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Yjv-GX-fDK">
+                    <connections>
+                        <action selector="mapButton:" destination="Y6W-OH-hqX" id="M9z-rM-ZSR"/>
+                        <outlet property="delegate" destination="WZw-wF-QI6" id="GRJ-Bn-KJW"/>
+                        <segue destination="55w-wT-LUm" kind="show" identifier="toExplicacao" id="lHr-cu-U0P"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="8.6956521739130448" y="62.946428571428569"/>
+        </scene>
+        <!--ExplicacaoScreen-->
+        <scene sceneID="qNL-Is-nMc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ExplicacaoScreen" referencedIdentifier="ExplicacaoScreen" id="55w-wT-LUm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bAS-mi-hlf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cf4-pY-Xgx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="-50"/>
         </scene>
     </scenes>
     <resources>
