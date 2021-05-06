@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="-143.30357142857142"/>
         </scene>
-        <!--LoginScreen-->
+        <!--BemVindoScreen-->
         <scene sceneID="uXx-DG-sQR">
             <objects>
-                <viewControllerPlaceholder storyboardName="LoginScreen" referencedIdentifier="LoginScreen" id="vv3-8o-djq" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="BemVindoScreen" referencedIdentifier="BemVindoScreen" id="vv3-8o-djq" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="JRv-Bt-tF3"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpe-CR-W96" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
