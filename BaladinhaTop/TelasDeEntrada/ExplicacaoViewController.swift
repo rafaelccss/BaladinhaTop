@@ -9,9 +9,31 @@ import UIKit
 
 class ExplicacaoViewController: UIViewController {
 
+    @IBOutlet weak var explicacaoLabel: UILabel!
+    
+    var paginaQueEstamos = 1
+    
+    @IBAction func proximoButton(_ sender: Any) {
+       paginaQueEstamos += 1
+        switch paginaQueEstamos {
+        case 2:
+            explicacaoLabel.text = "Busque por nome, tipo de festa,  estilo de música ou por localidade"
+        case 3:
+            explicacaoLabel.text = "Você pode encontrar pessoas para ir com você e traçar a rota perfeita para sua noite"
+        case 4:
+            performSegue(withIdentifier: "toEscolha", sender: nil)
+        default:            
+            print ("oops! q?")
+        }
+        
+    }
+    
+    @IBOutlet weak var cardView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        cardView.layer.cornerRadius = 18
+     
         // Do any additional setup after loading the view.
     }
     

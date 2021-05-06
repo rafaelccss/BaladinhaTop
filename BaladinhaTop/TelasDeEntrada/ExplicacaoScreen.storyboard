@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,24 +13,77 @@
             <objects>
                 <viewController storyboardIdentifier="ExplicacaoScreen" id="Y6W-OH-hqX" customClass="ExplicacaoViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="olar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdf-rj-Hf1">
-                                <rect key="frame" x="186" y="293" width="79" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1c-9b-9ZF">
+                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIK-Zo-fRd" userLabel="cardView">
+                                        <rect key="frame" x="46" y="263.66666666666669" width="336" height="321.00000000000006"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B.Fest é uma proposta para você encontrar a diversão que busca  e que melhor combina com você" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z38-oV-lbv">
+                                                <rect key="frame" x="54" y="100" width="228" height="121"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.85490196078431369" green="0.85490196078431369" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="z38-oV-lbv" secondAttribute="trailing" constant="54" id="5fR-zN-PK4"/>
+                                            <constraint firstAttribute="height" constant="321" id="DF6-pY-fOv"/>
+                                            <constraint firstItem="z38-oV-lbv" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" constant="54" id="EYW-pT-3Vo"/>
+                                            <constraint firstItem="z38-oV-lbv" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="top" constant="100" id="a5M-iJ-3bi"/>
+                                            <constraint firstAttribute="width" constant="336" id="ae9-UD-BVX"/>
+                                            <constraint firstAttribute="bottom" secondItem="z38-oV-lbv" secondAttribute="bottom" constant="100" id="dLv-VZ-Yd2"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1A-7X-H4z">
+                                        <rect key="frame" x="320" y="614.66666666666663" width="62" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Próximo"/>
+                                        <connections>
+                                            <action selector="proximoButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="WNT-Sr-5zf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kIK-Zo-fRd" firstAttribute="centerX" secondItem="x1c-9b-9ZF" secondAttribute="centerX" id="FOL-ke-NY6"/>
+                                    <constraint firstItem="kIK-Zo-fRd" firstAttribute="centerY" secondItem="x1c-9b-9ZF" secondAttribute="centerY" id="Ltj-JW-YVH"/>
+                                    <constraint firstItem="b1A-7X-H4z" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="bottom" constant="30" id="PkS-Nj-h5K"/>
+                                    <constraint firstItem="b1A-7X-H4z" firstAttribute="trailing" secondItem="kIK-Zo-fRd" secondAttribute="trailing" id="gTQ-MS-kEn"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x1c-9b-9ZF" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="MRY-ve-axd"/>
+                            <constraint firstItem="x1c-9b-9ZF" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="MbD-KC-yTP"/>
+                            <constraint firstItem="x1c-9b-9ZF" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="Vha-UY-Tbb"/>
+                            <constraint firstItem="x1c-9b-9ZF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="uzU-U8-8Y4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cardView" destination="kIK-Zo-fRd" id="Qbj-fX-410"/>
+                        <outlet property="explicacaoLabel" destination="z38-oV-lbv" id="tae-Fx-CWS"/>
+                        <segue destination="Ydo-Uz-7eG" kind="show" identifier="toEscolha" id="aAE-qU-vgf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="62"/>
+            <point key="canvasLocation" x="8.6956521739130448" y="61.607142857142854"/>
+        </scene>
+        <!--EscolhaDoPerfil-->
+        <scene sceneID="IOB-3c-gjg">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="EscolhaDoPerfil" storyboardName="EscolhaDoPerfil" referencedIdentifier="EscolhaDoPerfil" id="Ydo-Uz-7eG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Acl-Kl-Qob"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RsM-J8-Jwm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="585" y="-40"/>
         </scene>
     </scenes>
     <resources>
