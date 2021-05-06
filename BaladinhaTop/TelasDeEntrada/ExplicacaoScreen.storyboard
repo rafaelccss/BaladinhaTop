@@ -32,7 +32,7 @@
                                                 <rect key="frame" x="93" y="40" width="150" height="4"/>
                                                 <color key="progressTintColor" red="0.49278122190000001" green="0.36527448890000003" blue="0.80003815889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seniorImage " translatesAutoresizingMaskIntoConstraints="NO" id="rDL-GI-apA">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seniorImage" translatesAutoresizingMaskIntoConstraints="NO" id="rDL-GI-apA">
                                                 <rect key="frame" x="142" y="228.99999999999994" width="140" height="145"/>
                                             </imageView>
                                         </subviews>
@@ -119,7 +119,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="seniorImage " width="1402.5" height="1584"/>
+        <image name="seniorImage" width="1402.5" height="1584"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
