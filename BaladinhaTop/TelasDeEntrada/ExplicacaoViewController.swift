@@ -10,11 +10,15 @@ import UIKit
 class ExplicacaoViewController: UIViewController {
 
     @IBOutlet weak var explicacaoLabel: UILabel!
+    @IBOutlet weak var barraDeProgresso: UIProgressView!
+    @IBOutlet weak var cardView: UIView!
     
     var paginaQueEstamos = 1
     
-    @IBAction func proximoButton(_ sender: Any) {
-       paginaQueEstamos += 1
+    @IBAction func proximoButton(_ sender: Any) { //criar image view, trazer pra classe, mudar imagem
+        //fazer autolayout com a mesma lógica do botão, trazer 
+        paginaQueEstamos += 1
+        barraDeProgresso.progress = Float(paginaQueEstamos) / 3
         switch paginaQueEstamos {
         case 2:
             explicacaoLabel.text = "Busque por nome, tipo de festa,  estilo de música ou por localidade"
@@ -28,7 +32,7 @@ class ExplicacaoViewController: UIViewController {
         
     }
     
-    @IBOutlet weak var cardView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -28,21 +28,31 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.33300000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="Azq-QB-GGK">
+                                                <rect key="frame" x="93" y="40" width="150" height="4"/>
+                                                <color key="progressTintColor" red="0.49278122190000001" green="0.36527448890000003" blue="0.80003815889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </progressView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.85490196078431369" green="0.85490196078431369" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="z38-oV-lbv" secondAttribute="trailing" constant="54" id="5fR-zN-PK4"/>
                                             <constraint firstAttribute="height" constant="321" id="DF6-pY-fOv"/>
                                             <constraint firstItem="z38-oV-lbv" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" constant="54" id="EYW-pT-3Vo"/>
+                                            <constraint firstItem="Azq-QB-GGK" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="top" constant="40" id="QNd-87-U4F"/>
                                             <constraint firstItem="z38-oV-lbv" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="top" constant="100" id="a5M-iJ-3bi"/>
                                             <constraint firstAttribute="width" constant="336" id="ae9-UD-BVX"/>
                                             <constraint firstAttribute="bottom" secondItem="z38-oV-lbv" secondAttribute="bottom" constant="100" id="dLv-VZ-Yd2"/>
+                                            <constraint firstItem="z38-oV-lbv" firstAttribute="top" secondItem="Azq-QB-GGK" secondAttribute="bottom" constant="56" id="nny-Oc-3ST"/>
+                                            <constraint firstAttribute="trailing" secondItem="Azq-QB-GGK" secondAttribute="trailing" constant="93" id="rhM-RT-CnY"/>
+                                            <constraint firstItem="Azq-QB-GGK" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" constant="93" id="uGy-ky-sKv"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1A-7X-H4z">
-                                        <rect key="frame" x="320" y="614.66666666666663" width="62" height="33"/>
+                                        <rect key="frame" x="321" y="614.66666666666663" width="61" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Próximo"/>
+                                        <state key="normal" title="Avançar">
+                                            <color key="titleColor" red="0.49278122190000001" green="0.36527448890000003" blue="0.80003815889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
                                         <connections>
                                             <action selector="proximoButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="WNT-Sr-5zf"/>
                                         </connections>
@@ -66,6 +76,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="barraDeProgresso" destination="Azq-QB-GGK" id="LgB-Ns-HPx"/>
                         <outlet property="cardView" destination="kIK-Zo-fRd" id="Qbj-fX-410"/>
                         <outlet property="explicacaoLabel" destination="z38-oV-lbv" id="tae-Fx-CWS"/>
                         <segue destination="Ydo-Uz-7eG" kind="show" identifier="toEscolha" id="aAE-qU-vgf"/>
