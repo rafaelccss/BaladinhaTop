@@ -20,6 +20,8 @@
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
+		EE65C7AB2644307100AF6403 /* FeedFestasScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65C7AA2644307100AF6403 /* FeedFestasScreen.storyboard */; };
+		EE65C7AD2644309300AF6403 /* FeedFestasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65C7AC2644309300AF6403 /* FeedFestasViewController.swift */; };
 		EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */; };
 		EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CFD264197F00060A1C6 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
+		EE65C7AA2644307100AF6403 /* FeedFestasScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedFestasScreen.storyboard; sourceTree = "<group>"; };
+		EE65C7AC2644309300AF6403 /* FeedFestasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFestasViewController.swift; sourceTree = "<group>"; };
 		EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		EEC75CFD264197F00060A1C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,9 +180,19 @@
 		534D6BDC26418F59009DB26B /* Baladeiro */ = {
 			isa = PBXGroup;
 			children = (
+				EE65C7A92644305300AF6403 /* FeedFestas */,
 				534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */,
 			);
 			path = Baladeiro;
+			sourceTree = "<group>";
+		};
+		EE65C7A92644305300AF6403 /* FeedFestas */ = {
+			isa = PBXGroup;
+			children = (
+				EE65C7AA2644307100AF6403 /* FeedFestasScreen.storyboard */,
+				EE65C7AC2644309300AF6403 /* FeedFestasViewController.swift */,
+			);
+			path = FeedFestas;
 			sourceTree = "<group>";
 		};
 		EEC75CF9264197100060A1C6 /* Anfitriao */ = {
@@ -304,6 +318,7 @@
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
+				EE65C7AB2644307100AF6403 /* FeedFestasScreen.storyboard in Resources */,
 				EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
 				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
@@ -331,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE65C7AD2644309300AF6403 /* FeedFestasViewController.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
