@@ -20,6 +20,8 @@
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
+		EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */; };
+		EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CFD264197F00060A1C6 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
+		EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		EEC75CFD264197F00060A1C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,8 @@
 		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
 			isa = PBXGroup;
 			children = (
+				EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */,
+				EEC75CFD264197F00060A1C6 /* LoginViewController.swift */,
 			);
 			path = TelaDeLogin;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
+				EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
 				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
 			);
@@ -327,6 +334,7 @@
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
+				EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */,
 				1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */,
 				53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */,
 			);
