@@ -32,16 +32,23 @@
                                                 <rect key="frame" x="93" y="40" width="150" height="4"/>
                                                 <color key="progressTintColor" red="0.49278122190000001" green="0.36527448890000003" blue="0.80003815889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seniorImage " translatesAutoresizingMaskIntoConstraints="NO" id="rDL-GI-apA">
+                                                <rect key="frame" x="142" y="228.99999999999994" width="140" height="145"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.85490196078431369" green="0.85490196078431369" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
+                                            <constraint firstItem="rDL-GI-apA" firstAttribute="top" secondItem="z38-oV-lbv" secondAttribute="bottom" constant="8" symbolic="YES" id="1Gt-Zh-0g2"/>
                                             <constraint firstAttribute="trailing" secondItem="z38-oV-lbv" secondAttribute="trailing" constant="54" id="5fR-zN-PK4"/>
+                                            <constraint firstAttribute="bottom" secondItem="rDL-GI-apA" secondAttribute="bottom" constant="-53" id="71T-Fe-9gP"/>
                                             <constraint firstAttribute="height" constant="321" id="DF6-pY-fOv"/>
                                             <constraint firstItem="z38-oV-lbv" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" constant="54" id="EYW-pT-3Vo"/>
                                             <constraint firstItem="Azq-QB-GGK" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="top" constant="40" id="QNd-87-U4F"/>
                                             <constraint firstItem="z38-oV-lbv" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="top" constant="100" id="a5M-iJ-3bi"/>
+                                            <constraint firstItem="rDL-GI-apA" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" constant="142" id="aKz-En-BWH"/>
                                             <constraint firstAttribute="width" constant="336" id="ae9-UD-BVX"/>
                                             <constraint firstAttribute="bottom" secondItem="z38-oV-lbv" secondAttribute="bottom" constant="100" id="dLv-VZ-Yd2"/>
+                                            <constraint firstItem="rDL-GI-apA" firstAttribute="trailing" secondItem="z38-oV-lbv" secondAttribute="trailing" id="dw3-qO-ZX8"/>
                                             <constraint firstItem="z38-oV-lbv" firstAttribute="top" secondItem="Azq-QB-GGK" secondAttribute="bottom" constant="56" id="nny-Oc-3ST"/>
                                             <constraint firstAttribute="trailing" secondItem="Azq-QB-GGK" secondAttribute="trailing" constant="93" id="rhM-RT-CnY"/>
                                             <constraint firstItem="Azq-QB-GGK" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" constant="93" id="uGy-ky-sKv"/>
@@ -57,12 +64,24 @@
                                             <action selector="proximoButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="WNT-Sr-5zf"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCk-X2-8ol">
+                                        <rect key="frame" x="46" y="614.66666666666663" width="45" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="Voltar">
+                                            <color key="titleColor" red="0.49278122190000001" green="0.36527448890000003" blue="0.80003815889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="voltarButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7Kx-dE-J6g"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="kIK-Zo-fRd" firstAttribute="centerX" secondItem="x1c-9b-9ZF" secondAttribute="centerX" id="FOL-ke-NY6"/>
                                     <constraint firstItem="kIK-Zo-fRd" firstAttribute="centerY" secondItem="x1c-9b-9ZF" secondAttribute="centerY" id="Ltj-JW-YVH"/>
                                     <constraint firstItem="b1A-7X-H4z" firstAttribute="top" secondItem="kIK-Zo-fRd" secondAttribute="bottom" constant="30" id="PkS-Nj-h5K"/>
                                     <constraint firstItem="b1A-7X-H4z" firstAttribute="trailing" secondItem="kIK-Zo-fRd" secondAttribute="trailing" id="gTQ-MS-kEn"/>
+                                    <constraint firstItem="QCk-X2-8ol" firstAttribute="top" secondItem="b1A-7X-H4z" secondAttribute="top" id="iB3-4a-YzT"/>
+                                    <constraint firstItem="QCk-X2-8ol" firstAttribute="leading" secondItem="kIK-Zo-fRd" secondAttribute="leading" id="wcE-Mr-jhJ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -78,13 +97,15 @@
                     <connections>
                         <outlet property="barraDeProgresso" destination="Azq-QB-GGK" id="LgB-Ns-HPx"/>
                         <outlet property="cardView" destination="kIK-Zo-fRd" id="Qbj-fX-410"/>
+                        <outlet property="explicacaoImage" destination="rDL-GI-apA" id="6QS-eF-d1Y"/>
                         <outlet property="explicacaoLabel" destination="z38-oV-lbv" id="tae-Fx-CWS"/>
+                        <outlet property="voltarExplicacao" destination="QCk-X2-8ol" id="J5X-ji-wDd"/>
                         <segue destination="Ydo-Uz-7eG" kind="show" identifier="toEscolha" id="aAE-qU-vgf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8.6956521739130448" y="61.607142857142854"/>
+            <point key="canvasLocation" x="8.4112149532710276" y="61.555075593952488"/>
         </scene>
         <!--EscolhaDoPerfil-->
         <scene sceneID="IOB-3c-gjg">
@@ -98,6 +119,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="seniorImage " width="1402.5" height="1584"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
