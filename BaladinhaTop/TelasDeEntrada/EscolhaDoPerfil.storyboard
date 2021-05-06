@@ -23,20 +23,39 @@
                                         <rect key="frame" x="107" y="261" width="214" height="326"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como vamos hoje?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45I-zs-gy1">
-                                        <rect key="frame" x="107.00000000000001" y="134.33333333333334" width="197.33333333333337" height="28.666666666666657"/>
+                                        <rect key="frame" x="115.33333333333333" y="152.33333333333334" width="197.33333333333337" height="28.666666666666657"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SA-VX-0D0">
+                                        <rect key="frame" x="107" y="628" width="214" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Anfitrião">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-Io-no8">
+                                        <rect key="frame" x="107" y="692" width="214" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <state key="normal" title="Baladeiro">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
+                                    <constraint firstItem="Uz0-Io-no8" firstAttribute="leading" secondItem="5SA-VX-0D0" secondAttribute="leading" id="6Vo-uW-cer"/>
                                     <constraint firstItem="NvS-FB-60u" firstAttribute="top" secondItem="XCL-ax-Q8B" secondAttribute="top" constant="261" id="6ay-Rx-X7H"/>
-                                    <constraint firstItem="45I-zs-gy1" firstAttribute="leading" secondItem="NvS-FB-60u" secondAttribute="leading" id="Jk5-fV-5de"/>
+                                    <constraint firstItem="5SA-VX-0D0" firstAttribute="leading" secondItem="NvS-FB-60u" secondAttribute="leading" id="Bg8-UG-VoY"/>
                                     <constraint firstItem="NvS-FB-60u" firstAttribute="centerX" secondItem="XCL-ax-Q8B" secondAttribute="centerX" id="LNs-5U-rE6"/>
                                     <constraint firstItem="NvS-FB-60u" firstAttribute="leading" secondItem="XCL-ax-Q8B" secondAttribute="leading" constant="107" id="Lf6-Fl-a1j"/>
-                                    <constraint firstItem="NvS-FB-60u" firstAttribute="top" secondItem="45I-zs-gy1" secondAttribute="bottom" constant="98" id="WmR-lG-CIz"/>
+                                    <constraint firstItem="5SA-VX-0D0" firstAttribute="top" secondItem="NvS-FB-60u" secondAttribute="bottom" constant="41" id="Tb3-Z9-R3g"/>
+                                    <constraint firstItem="Uz0-Io-no8" firstAttribute="top" secondItem="5SA-VX-0D0" secondAttribute="bottom" constant="25" id="VSR-SE-a9E"/>
+                                    <constraint firstItem="NvS-FB-60u" firstAttribute="top" secondItem="45I-zs-gy1" secondAttribute="bottom" constant="80" id="WmR-lG-CIz"/>
                                     <constraint firstAttribute="bottom" secondItem="NvS-FB-60u" secondAttribute="bottom" constant="261" id="foe-BB-whu"/>
+                                    <constraint firstItem="Uz0-Io-no8" firstAttribute="trailing" secondItem="5SA-VX-0D0" secondAttribute="trailing" id="fyA-Az-RbB"/>
+                                    <constraint firstItem="5SA-VX-0D0" firstAttribute="trailing" secondItem="NvS-FB-60u" secondAttribute="trailing" id="kK5-6c-SaD"/>
+                                    <constraint firstItem="45I-zs-gy1" firstAttribute="centerX" secondItem="XCL-ax-Q8B" secondAttribute="centerX" id="kVi-pQ-9nf"/>
                                     <constraint firstAttribute="trailing" secondItem="NvS-FB-60u" secondAttribute="trailing" constant="107" id="s6Q-gD-r6P"/>
                                     <constraint firstItem="NvS-FB-60u" firstAttribute="centerY" secondItem="XCL-ax-Q8B" secondAttribute="centerY" id="x7p-lK-lAA"/>
                                 </constraints>
@@ -51,6 +70,10 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="XCL-ax-Q8B" secondAttribute="bottom" id="lg9-0l-6Rk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="anfitriaoPerfilButton" destination="5SA-VX-0D0" id="26c-pE-m5A"/>
+                        <outlet property="baladeiroPerfilButton" destination="Uz0-Io-no8" id="ebX-gL-gyP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,11 +82,11 @@
     </scenes>
     <resources>
         <image name="escolhaDoPerfilImage" width="1116" height="1652"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
