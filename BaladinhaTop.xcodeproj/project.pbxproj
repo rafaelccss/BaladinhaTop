@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162D26B4264376CB007125CF /* EscolhaDoPerfil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162D26B3264376CB007125CF /* EscolhaDoPerfil.storyboard */; };
+		162D26B6264376E0007125CF /* EscolhaDoPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D26B5264376E0007125CF /* EscolhaDoPerfilViewController.swift */; };
 		1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */; };
 		1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */; };
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		162D26B3264376CB007125CF /* EscolhaDoPerfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EscolhaDoPerfil.storyboard; sourceTree = "<group>"; };
+		162D26B5264376E0007125CF /* EscolhaDoPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolhaDoPerfilViewController.swift; sourceTree = "<group>"; };
 		1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplicacaoScreen.storyboard; sourceTree = "<group>"; };
 		1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicacaoViewController.swift; sourceTree = "<group>"; };
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 				16CF70AD264182390056D39C /* BemVindoScreen.storyboard */,
 				1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */,
 				1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */,
+				162D26B3264376CB007125CF /* EscolhaDoPerfil.storyboard */,
+				162D26B5264376E0007125CF /* EscolhaDoPerfilViewController.swift */,
 			);
 			path = TelasDeEntrada;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */,
+				162D26B4264376CB007125CF /* EscolhaDoPerfil.storyboard in Resources */,
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */,
@@ -346,8 +353,7 @@
 			files = (
 				53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
-				5311180C2644C85E00467A59 /* PerfilDaFestaViewController.swift in Sources */,
-				53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */,
+				162D26B6264376E0007125CF /* EscolhaDoPerfilViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
 				EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */,
