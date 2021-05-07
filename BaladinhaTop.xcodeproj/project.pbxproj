@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
 		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
+		5311180C2644C85E00467A59 /* PerfilDaFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */; };
 		53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8D26417C18003BEA59 /* AppDelegate.swift */; };
 		53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8F26417C18003BEA59 /* SceneDelegate.swift */; };
 		53318F9226417C18003BEA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F9126417C18003BEA59 /* ViewController.swift */; };
@@ -18,9 +19,9 @@
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
 		534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
-		534E15DA2642E3D500C64660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534E15D92642E3D500C64660 /* Assets.xcassets */; };
 		53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */; };
-		53EB536A2642C73500A79433 /* VouFestarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB53692642C73500A79433 /* VouFestarViewController.swift */; };
+		53DB19BA264574E8008D7A18 /* Assets.xcassets .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */; };
+		53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB53692642C73500A79433 /* CriarFestaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
 		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
+		5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDaFestaViewController.swift; sourceTree = "<group>"; };
 		53318F8A26417C18003BEA59 /* BaladinhaTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaladinhaTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318F8D26417C18003BEA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53318F8F26417C18003BEA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +60,9 @@
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PerfilAnfitriao.storyboard; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
-		534E15D92642E3D500C64660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
-		53EB53692642C73500A79433 /* VouFestarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VouFestarViewController.swift; sourceTree = "<group>"; };
+		53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets .xcassets"; path = "../../../../Desktop/Assets.xcassets .xcassets"; sourceTree = "<group>"; };
+		53EB53692642C73500A79433 /* CriarFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarFestaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,9 +146,10 @@
 		533566842641C19B00D0D0D2 /* Anfitriao */ = {
 			isa = PBXGroup;
 			children = (
-				53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */,
 				534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */,
-				53EB53692642C73500A79433 /* VouFestarViewController.swift */,
+				53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */,
+				53EB53692642C73500A79433 /* CriarFestaViewController.swift */,
+				5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */,
 			);
 			path = Anfitriao;
 			sourceTree = "<group>";
@@ -163,7 +166,7 @@
 		534D6BD826418D54009DB26B /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
-				534E15D92642E3D500C64660 /* Assets.xcassets */,
+				53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */,
 				53318F9B26417C19003BEA59 /* Info.plist */,
 			);
 			path = Recursos;
@@ -299,9 +302,9 @@
 			files = (
 				16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */,
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
+				53DB19BA264574E8008D7A18 /* Assets.xcassets .xcassets in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */,
-				534E15DA2642E3D500C64660 /* Assets.xcassets in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,8 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53EB536A2642C73500A79433 /* VouFestarViewController.swift in Sources */,
+				53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
+				5311180C2644C85E00467A59 /* PerfilDaFestaViewController.swift in Sources */,
 				53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,

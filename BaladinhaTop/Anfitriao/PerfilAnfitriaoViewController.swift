@@ -34,13 +34,11 @@ class PerfilAnfitriaoViewController: UIViewController {
         let myParty = sender.view
         
         if myParty == oferecerFesta {
-            performSegue(withIdentifier: "transicaoReputacao", sender: sender)
+            performSegue(withIdentifier: "transicaoCriarFesta", sender: sender)
         }
-        
         if myParty == reputacao {
             print("Reputação")
         }
-        
         
         if myParty == minhasFestas {
             print("Minhas festas")
@@ -49,6 +47,14 @@ class PerfilAnfitriaoViewController: UIViewController {
             print("Hoje vou festar")
         }
     }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "transicaoCriarFesta" {
+//            if let destination = segue.destination as? CriarFestaViewController {
+//                destination.nomeDaFesta = "PSNijidsnidnisd"
+//            }
+//        }
+//    }
 
     /*
     // MARK: - Navigation

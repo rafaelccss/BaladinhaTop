@@ -20,9 +20,6 @@
                                 <rect key="frame" x="184" y="329" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="vv3-8o-djq" kind="show" id="vYQ-ha-8cQ"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -33,16 +30,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="-143.30357142857142"/>
-        </scene>
-        <!--PerfilAnfitriao-->
-        <scene sceneID="uXx-DG-sQR">
-            <objects>
-                <viewControllerPlaceholder storyboardName="PerfilAnfitriao" referencedIdentifier="PerfilAnfitriao" id="vv3-8o-djq" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="JRv-Bt-tF3"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wpe-CR-W96" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-146" y="-505"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cj7-6R-sRg">
