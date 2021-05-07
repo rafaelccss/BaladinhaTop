@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,37 +8,81 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Bem Vindo View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="BemVindoScreen" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BemVindoScreen" id="Y6W-OH-hqX" customClass="BemVindoViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deeeeeeeu " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zc-x9-3uT">
-                                <rect key="frame" x="146" y="235" width="91" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-T3-kh7">
-                                <rect key="frame" x="117" y="405" width="194" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Se organizar vai ficar chique"/>
-                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5j-PW-jGy">
+                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="bemVindoMapImage" translatesAutoresizingMaskIntoConstraints="NO" id="WZw-wF-QI6">
+                                        <rect key="frame" x="20" y="346" width="388" height="413"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="413" id="a9n-wu-5Kp"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Yjv-GX-fDK" appends="YES" id="MZd-x0-UIe"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estamos felizes com sua visita" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pll-T4-fP1">
+                                        <rect key="frame" x="40" y="161" width="234" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="CEB-us-qSa"/>
+                                            <constraint firstAttribute="width" constant="234" id="SwR-uF-xIA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pll-T4-fP1" firstAttribute="leading" secondItem="N5j-PW-jGy" secondAttribute="leading" constant="40" id="34H-zC-OWE"/>
+                                    <constraint firstAttribute="trailing" secondItem="WZw-wF-QI6" secondAttribute="trailing" constant="20" id="CpU-8Q-oZk"/>
+                                    <constraint firstItem="WZw-wF-QI6" firstAttribute="top" secondItem="pll-T4-fP1" secondAttribute="bottom" constant="5" id="Ezc-xg-VzI"/>
+                                    <constraint firstAttribute="bottom" secondItem="WZw-wF-QI6" secondAttribute="bottom" constant="89" id="UiK-gh-xDu"/>
+                                    <constraint firstItem="WZw-wF-QI6" firstAttribute="leading" secondItem="N5j-PW-jGy" secondAttribute="leading" constant="20" id="vHk-RV-lbq"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="N5j-PW-jGy" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="XiG-it-JaV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="N5j-PW-jGy" secondAttribute="bottom" id="cM1-ee-Zpb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="N5j-PW-jGy" secondAttribute="trailing" id="n58-rR-qaW"/>
+                            <constraint firstItem="N5j-PW-jGy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zDE-qu-gln"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Yjv-GX-fDK">
+                    <connections>
+                        <action selector="mapButton:" destination="Y6W-OH-hqX" id="M9z-rM-ZSR"/>
+                        <outlet property="delegate" destination="WZw-wF-QI6" id="GRJ-Bn-KJW"/>
+                        <segue destination="55w-wT-LUm" kind="show" identifier="toExplicacao" id="lHr-cu-U0P"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="8.6956521739130448" y="62.946428571428569"/>
         </scene>
+        <!--ExplicacaoScreen-->
+        <scene sceneID="qNL-Is-nMc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ExplicacaoScreen" referencedIdentifier="ExplicacaoScreen" id="55w-wT-LUm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bAS-mi-hlf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cf4-pY-Xgx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="-50"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="bemVindoMapImage" width="732.5" height="732.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

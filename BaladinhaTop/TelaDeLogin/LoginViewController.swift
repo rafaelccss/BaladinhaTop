@@ -1,25 +1,21 @@
 //
-//  BemVindoViewController
+//  LoginViewController.swift
 //  BaladinhaTop
 //
-//  Created by Francisca Rosa on 04/05/21.
+//  Created by Ercília Regina Silva Dantas on 04/05/21.
 //
 
 import UIKit
 
-class BemVindoViewController: UIViewController {
-
+class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
-    @objc
-    @IBAction func mapButton(_ sender: UIGestureRecognizer) {
-        performSegue(withIdentifier: "toExplicacao", sender: sender)
-    }
+
     /*
     // MARK: - Navigation
 

@@ -1,25 +1,21 @@
 //
-//  BemVindoViewController
+//  ExplicacaoViewController.swift
 //  BaladinhaTop
 //
-//  Created by Francisca Rosa on 04/05/21.
+//  Created by Francisca Rosa on 05/05/21.
 //
 
 import UIKit
 
-class BemVindoViewController: UIViewController {
+class ExplicacaoViewController: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @objc
-    @IBAction func mapButton(_ sender: UIGestureRecognizer) {
-        performSegue(withIdentifier: "toExplicacao", sender: sender)
-    }
+
     /*
     // MARK: - Navigation
 

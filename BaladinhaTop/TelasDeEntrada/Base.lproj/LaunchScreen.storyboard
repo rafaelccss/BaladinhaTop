@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,25 +13,41 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lauchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="eJR-VH-Dd4">
-                                <rect key="frame" x="0.0" y="134" width="414" height="628"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xW-1Q-HDV">
+                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launchScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="Nuy-2L-gNr">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="848"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Nuy-2L-gNr" secondAttribute="trailing" id="5p4-hJ-SFV"/>
+                                    <constraint firstAttribute="bottom" secondItem="Nuy-2L-gNr" secondAttribute="bottom" id="FhB-PA-9j2"/>
+                                    <constraint firstItem="Nuy-2L-gNr" firstAttribute="leading" secondItem="1xW-1Q-HDV" secondAttribute="leading" id="Tf7-0H-oFk"/>
+                                    <constraint firstItem="Nuy-2L-gNr" firstAttribute="top" secondItem="1xW-1Q-HDV" secondAttribute="top" id="yU2-QU-eXv"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1xW-1Q-HDV" secondAttribute="bottom" id="BOX-UB-VHt"/>
+                            <constraint firstItem="1xW-1Q-HDV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ORb-BN-0WV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1xW-1Q-HDV" secondAttribute="trailing" id="cag-0H-NUT"/>
+                            <constraint firstItem="1xW-1Q-HDV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hFz-Ph-cyc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="lauchScreen" width="1324" height="2008"/>
+        <image name="launchScreenImage" width="1324" height="2008"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

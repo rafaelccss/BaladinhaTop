@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */; };
+		1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */; };
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
 		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
 		5311180C2644C85E00467A59 /* PerfilDaFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */; };
@@ -19,9 +21,14 @@
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
 		534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
+
 		53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */; };
 		53DB19BA264574E8008D7A18 /* Assets.xcassets .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */; };
 		53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB53692642C73500A79433 /* CriarFestaViewController.swift */; };
+
+		EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */; };
+		EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CFD264197F00060A1C6 /* LoginViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExplicacaoScreen.storyboard; sourceTree = "<group>"; };
+		1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicacaoViewController.swift; sourceTree = "<group>"; };
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
 		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
 		5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDaFestaViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +69,14 @@
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PerfilAnfitriao.storyboard; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
+
 		53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
 		53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets .xcassets"; path = "../../../../Desktop/Assets.xcassets .xcassets"; sourceTree = "<group>"; };
 		53EB53692642C73500A79433 /* CriarFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarFestaViewController.swift; sourceTree = "<group>"; };
+
+		EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		EEC75CFD264197F00060A1C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +192,8 @@
 				53318F9826417C19003BEA59 /* LaunchScreen.storyboard */,
 				16CF70AF264183580056D39C /* BemVindoViewController.swift */,
 				16CF70AD264182390056D39C /* BemVindoScreen.storyboard */,
+				1695D7FB26431A3E00C75E4C /* ExplicacaoScreen.storyboard */,
+				1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */,
 			);
 			path = TelasDeEntrada;
 			sourceTree = "<group>";
@@ -193,6 +209,8 @@
 		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
 			isa = PBXGroup;
 			children = (
+				EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */,
+				EEC75CFD264197F00060A1C6 /* LoginViewController.swift */,
 			);
 			path = TelaDeLogin;
 			sourceTree = "<group>";
@@ -304,8 +322,14 @@
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53DB19BA264574E8008D7A18 /* Assets.xcassets .xcassets in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
+
 				534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */,
+
+				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
+				EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */,
+
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
+				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +360,8 @@
 				53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
+				EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */,
+				1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */,
 				53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
