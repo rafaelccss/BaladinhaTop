@@ -11,17 +11,24 @@
 		1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */; };
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
 		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
+		5311180C2644C85E00467A59 /* PerfilDaFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */; };
 		53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8D26417C18003BEA59 /* AppDelegate.swift */; };
 		53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8F26417C18003BEA59 /* SceneDelegate.swift */; };
 		53318F9226417C18003BEA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F9126417C18003BEA59 /* ViewController.swift */; };
 		53318F9526417C18003BEA59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53318F9326417C18003BEA59 /* Main.storyboard */; };
-		53318F9726417C19003BEA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53318F9626417C19003BEA59 /* Assets.xcassets */; };
 		53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53318F9826417C19003BEA59 /* LaunchScreen.storyboard */; };
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
+		534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
+
+		53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */; };
+		53DB19BA264574E8008D7A18 /* Assets.xcassets .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */; };
+		53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB53692642C73500A79433 /* CriarFestaViewController.swift */; };
+
 		EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */; };
 		EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CFD264197F00060A1C6 /* LoginViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +53,12 @@
 		1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicacaoViewController.swift; sourceTree = "<group>"; };
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
 		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
+		5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDaFestaViewController.swift; sourceTree = "<group>"; };
 		53318F8A26417C18003BEA59 /* BaladinhaTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaladinhaTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318F8D26417C18003BEA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53318F8F26417C18003BEA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		53318F9126417C18003BEA59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53318F9426417C18003BEA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53318F9626417C19003BEA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53318F9926417C19003BEA59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53318F9B26417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53318FA026417C19003BEA59 /* BaladinhaTopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaladinhaTopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +67,16 @@
 		53318FAB26417C19003BEA59 /* BaladinhaTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaladinhaTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PerfilAnfitriao.storyboard; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
+
+		53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
+		53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets .xcassets"; path = "../../../../Desktop/Assets.xcassets .xcassets"; sourceTree = "<group>"; };
+		53EB53692642C73500A79433 /* CriarFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarFestaViewController.swift; sourceTree = "<group>"; };
+
 		EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		EEC75CFD264197F00060A1C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +129,7 @@
 			children = (
 				53318F9126417C18003BEA59 /* ViewController.swift */,
 				53318F9326417C18003BEA59 /* Main.storyboard */,
-				EEC75CF9264197100060A1C6 /* Anfitriao */,
+				533566842641C19B00D0D0D2 /* Anfitriao */,
 				534D6BDC26418F59009DB26B /* Baladeiro */,
 				534D6BD926418E13009DB26B /* TelasDeEntrada */,
 				EEC75CFA2641972D0060A1C6 /* TelaDeLogin */,
@@ -143,6 +157,17 @@
 			path = BaladinhaTopUITests;
 			sourceTree = "<group>";
 		};
+		533566842641C19B00D0D0D2 /* Anfitriao */ = {
+			isa = PBXGroup;
+			children = (
+				534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */,
+				53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */,
+				53EB53692642C73500A79433 /* CriarFestaViewController.swift */,
+				5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */,
+			);
+			path = Anfitriao;
+			sourceTree = "<group>";
+		};
 		534D6BD726418D2B009DB26B /* Uteis */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +180,7 @@
 		534D6BD826418D54009DB26B /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
-				53318F9626417C19003BEA59 /* Assets.xcassets */,
+				53DB19B9264574E8008D7A18 /* Assets.xcassets .xcassets */,
 				53318F9B26417C19003BEA59 /* Info.plist */,
 			);
 			path = Recursos;
@@ -179,13 +204,6 @@
 				534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */,
 			);
 			path = Baladeiro;
-			sourceTree = "<group>";
-		};
-		EEC75CF9264197100060A1C6 /* Anfitriao */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Anfitriao;
 			sourceTree = "<group>";
 		};
 		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
@@ -302,9 +320,14 @@
 			files = (
 				16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */,
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
+				53DB19BA264574E8008D7A18 /* Assets.xcassets .xcassets in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
+
+				534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */,
+
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
 				EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */,
+
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
 				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
 			);
@@ -331,7 +354,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
+				5311180C2644C85E00467A59 /* PerfilDaFestaViewController.swift in Sources */,
+				53DA4ED92641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
 				EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */,

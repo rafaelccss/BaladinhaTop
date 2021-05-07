@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="G5r-E4-NyH">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -20,9 +20,6 @@
                                 <rect key="frame" x="184" y="329" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="vv3-8o-djq" kind="show" id="3vf-X0-Clh"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -34,6 +31,7 @@
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="-143.30357142857142"/>
         </scene>
+
         <!--BemVindoScreen-->
         <scene sceneID="uXx-DG-sQR">
             <objects>
@@ -44,6 +42,7 @@
             </objects>
             <point key="canvasLocation" x="333" y="-506"/>
         </scene>
+
         <!--Navigation Controller-->
         <scene sceneID="Cj7-6R-sRg">
             <objects>
