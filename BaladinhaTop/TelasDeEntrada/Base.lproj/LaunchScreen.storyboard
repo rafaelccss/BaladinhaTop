@@ -19,23 +19,24 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xW-1Q-HDV">
                                 <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launchScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="Nuy-2L-gNr">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="lauchScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="IFW-Mk-SlS">
                                         <rect key="frame" x="0.0" y="0.0" width="428" height="848"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Nuy-2L-gNr" secondAttribute="trailing" id="5p4-hJ-SFV"/>
-                                    <constraint firstAttribute="bottom" secondItem="Nuy-2L-gNr" secondAttribute="bottom" id="FhB-PA-9j2"/>
-                                    <constraint firstItem="Nuy-2L-gNr" firstAttribute="leading" secondItem="1xW-1Q-HDV" secondAttribute="leading" id="Tf7-0H-oFk"/>
-                                    <constraint firstItem="Nuy-2L-gNr" firstAttribute="top" secondItem="1xW-1Q-HDV" secondAttribute="top" id="yU2-QU-eXv"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1xW-1Q-HDV" secondAttribute="bottom" id="BOX-UB-VHt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IFW-Mk-SlS" secondAttribute="bottom" id="EJk-Zj-cFI"/>
+                            <constraint firstItem="IFW-Mk-SlS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="IQf-dH-jJS"/>
                             <constraint firstItem="1xW-1Q-HDV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ORb-BN-0WV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="IFW-Mk-SlS" secondAttribute="leading" id="YHM-5M-tcH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFW-Mk-SlS" secondAttribute="trailing" id="aKq-8t-sLb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1xW-1Q-HDV" secondAttribute="trailing" id="cag-0H-NUT"/>
                             <constraint firstItem="1xW-1Q-HDV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hFz-Ph-cyc"/>
                         </constraints>
@@ -47,7 +48,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchScreenImage" width="1324" height="2008"/>
+        <image name="lauchScreenImage" width="414" height="628"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -34,6 +34,9 @@
                                         <state key="normal" title="Anfitrião">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="3Er-Ja-oUd" kind="show" id="Um9-cQ-mTK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-Io-no8">
                                         <rect key="frame" x="107" y="692" width="214" height="39"/>
@@ -71,13 +74,33 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="anfitriaoPerfilButton" destination="5SA-VX-0D0" id="26c-pE-m5A"/>
+                        <outlet property="anfitriaoPerfilButton" destination="5SA-VX-0D0" id="EHr-2p-rRA"/>
                         <outlet property="baladeiroPerfilButton" destination="Uz0-Io-no8" id="ebX-gL-gyP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="99" y="31"/>
+        </scene>
+        <!--perfilAnfitriao-->
+        <scene sceneID="iWg-wf-IkF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PerfilAnfitriao" referencedIdentifier="perfilAnfitriao" id="3Er-Ja-oUd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vTQ-BB-4JD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UID-26-ziw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768" y="55"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="zTz-jz-P6r">
+            <objects>
+                <viewControllerPlaceholder id="plO-s7-pn3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8li-Af-ac9"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="743-K1-PWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="716" y="237"/>
         </scene>
     </scenes>
     <resources>
