@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "oferecerFesta.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "oferecerFesta.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
