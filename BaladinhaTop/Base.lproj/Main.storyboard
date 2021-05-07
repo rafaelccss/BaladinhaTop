@@ -20,6 +20,9 @@
                                 <rect key="frame" x="184" y="329" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="vv3-8o-djq" kind="show" id="VaR-yf-com"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -31,7 +34,6 @@
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="-143.30357142857142"/>
         </scene>
-
         <!--BemVindoScreen-->
         <scene sceneID="uXx-DG-sQR">
             <objects>
@@ -42,7 +44,6 @@
             </objects>
             <point key="canvasLocation" x="333" y="-506"/>
         </scene>
-
         <!--Navigation Controller-->
         <scene sceneID="Cj7-6R-sRg">
             <objects>
