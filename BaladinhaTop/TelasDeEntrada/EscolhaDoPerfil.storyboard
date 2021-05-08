@@ -44,6 +44,9 @@
                                         <state key="normal" title="Baladeiro">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="r7r-iE-vFb" kind="show" id="QoG-jn-Uie"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -92,15 +95,15 @@
             </objects>
             <point key="canvasLocation" x="768" y="55"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="zTz-jz-P6r">
+        <!--FestaListaScreen-->
+        <scene sceneID="0d2-Pm-zpG">
             <objects>
-                <viewControllerPlaceholder id="plO-s7-pn3" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="8li-Af-ac9"/>
+                <viewControllerPlaceholder storyboardName="FestaListaScreen" referencedIdentifier="FestaListaScreen" id="r7r-iE-vFb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5FS-Qv-i8j"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="743-K1-PWW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R88-ix-fGo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="716" y="237"/>
+            <point key="canvasLocation" x="779" y="237"/>
         </scene>
     </scenes>
     <resources>
