@@ -20,10 +20,14 @@
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
 		534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */; };
-		EE65C7AB2644307100AF6403 /* FeedFestasScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE65C7AA2644307100AF6403 /* FeedFestasScreen.storyboard */; };
-		EE65C7AD2644309300AF6403 /* FeedFestasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65C7AC2644309300AF6403 /* FeedFestasViewController.swift */; };
+		EE4119322646EE6700C012CD /* AlertaScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4119312646EE6700C012CD /* AlertaScreen.storyboard */; };
+		EE4119342646EF2F00C012CD /* AlertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4119332646EF2F00C012CD /* AlertaViewController.swift */; };
+		EE4119362647012A00C012CD /* AlertaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4119352647012A00C012CD /* AlertaService.swift */; };
 		EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */; };
 		EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CFD264197F00060A1C6 /* LoginViewController.swift */; };
+		EED5004B2646C611002A892B /* FestaListaScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED5004A2646C611002A892B /* FestaListaScreen.storyboard */; };
+		EED5004D2646C6DB002A892B /* FestaListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5004C2646C6DB002A892B /* FestaListaViewController.swift */; };
+		EED5004F2646D0DE002A892B /* FestaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED5004E2646D0DE002A892B /* FestaViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +67,14 @@
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534D6BDD26418FE3009DB26B /* Baladeiro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Baladeiro.storyboard; sourceTree = "<group>"; };
-		EE65C7AA2644307100AF6403 /* FeedFestasScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedFestasScreen.storyboard; sourceTree = "<group>"; };
-		EE65C7AC2644309300AF6403 /* FeedFestasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedFestasViewController.swift; sourceTree = "<group>"; };
+		EE4119312646EE6700C012CD /* AlertaScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertaScreen.storyboard; sourceTree = "<group>"; };
+		EE4119332646EF2F00C012CD /* AlertaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaViewController.swift; sourceTree = "<group>"; };
+		EE4119352647012A00C012CD /* AlertaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaService.swift; sourceTree = "<group>"; };
 		EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		EEC75CFD264197F00060A1C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EED5004A2646C611002A892B /* FestaListaScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FestaListaScreen.storyboard; sourceTree = "<group>"; };
+		EED5004C2646C6DB002A892B /* FestaListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestaListaViewController.swift; sourceTree = "<group>"; };
+		EED5004E2646D0DE002A892B /* FestaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestaViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,7 @@
 			children = (
 				53318F9126417C18003BEA59 /* ViewController.swift */,
 				53318F9326417C18003BEA59 /* Main.storyboard */,
+				EE4119302646EE3B00C012CD /* Alerta */,
 				EEC75CF9264197100060A1C6 /* Anfitriao */,
 				534D6BDC26418F59009DB26B /* Baladeiro */,
 				534D6BD926418E13009DB26B /* TelasDeEntrada */,
@@ -186,11 +195,22 @@
 			path = Baladeiro;
 			sourceTree = "<group>";
 		};
+		EE4119302646EE3B00C012CD /* Alerta */ = {
+			isa = PBXGroup;
+			children = (
+				EE4119312646EE6700C012CD /* AlertaScreen.storyboard */,
+				EE4119332646EF2F00C012CD /* AlertaViewController.swift */,
+				EE4119352647012A00C012CD /* AlertaService.swift */,
+			);
+			path = Alerta;
+			sourceTree = "<group>";
+		};
 		EE65C7A92644305300AF6403 /* FeedFestas */ = {
 			isa = PBXGroup;
 			children = (
-				EE65C7AA2644307100AF6403 /* FeedFestasScreen.storyboard */,
-				EE65C7AC2644309300AF6403 /* FeedFestasViewController.swift */,
+				EED5004A2646C611002A892B /* FestaListaScreen.storyboard */,
+				EED5004C2646C6DB002A892B /* FestaListaViewController.swift */,
+				EED5004E2646D0DE002A892B /* FestaViewCell.swift */,
 			);
 			path = FeedFestas;
 			sourceTree = "<group>";
@@ -318,9 +338,10 @@
 				534D6BDE26418FE3009DB26B /* Baladeiro.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				53318F9726417C19003BEA59 /* Assets.xcassets in Resources */,
-				EE65C7AB2644307100AF6403 /* FeedFestasScreen.storyboard in Resources */,
 				EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
+				EE4119322646EE6700C012CD /* AlertaScreen.storyboard in Resources */,
+				EED5004B2646C611002A892B /* FestaListaScreen.storyboard in Resources */,
 				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,13 +367,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE65C7AD2644309300AF6403 /* FeedFestasViewController.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
+				EED5004D2646C6DB002A892B /* FestaListaViewController.swift in Sources */,
+				EED5004F2646D0DE002A892B /* FestaViewCell.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
+				EE4119362647012A00C012CD /* AlertaService.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
 				EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */,
 				1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */,
 				53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */,
+				EE4119342646EF2F00C012CD /* AlertaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
