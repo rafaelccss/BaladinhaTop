@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CriarFestaViewController: UIViewController {
+class CriarFestaViewController: UIViewController, UITextFieldDelegate, UITextViewDelegate {
     
 //    var nomeDaFesta: String?
 //    @IBOutlet weak var parNomeDaFesta: UITextField!
@@ -17,6 +17,8 @@ class CriarFestaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nomeDaFesta.delegate = self
+        descricaoDaFesta.delegate = self 
 
         // Do any additional setup after loading the view.
     }
@@ -43,4 +45,19 @@ class CriarFestaViewController: UIViewController {
         }
         
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+            if(text == "\n") {
+                textView.resignFirstResponder()
+                return false
+            }
+            return true
+        }
+
 }
+
