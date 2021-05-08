@@ -1,19 +1,17 @@
 //
-//  LoginViewController.swift
+//  LoginAnfitriaoViewController.swift
 //  BaladinhaTop
 //
-//  Created by Ercília Regina Silva Dantas on 04/05/21.
+//  Created by Rafael Custódio Silva on 07/05/21.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-    
-    var deOndeVeioEssaTela: String?
-    
+class LoginAnfitriaoViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     

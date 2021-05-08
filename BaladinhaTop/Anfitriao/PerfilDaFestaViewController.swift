@@ -13,7 +13,6 @@ class PerfilDaFestaViewController: UIViewController {
     var descricaoDaFesta: String?
     
     @IBOutlet weak var barraPerfilDaFesta: UINavigationItem!
-    
     @IBOutlet weak var displayingDescricaoDaFesta: UITextView!
     
     override func viewDidLoad() {
@@ -30,3 +29,5 @@ class PerfilDaFestaViewController: UIViewController {
     
     
 }
+
+
