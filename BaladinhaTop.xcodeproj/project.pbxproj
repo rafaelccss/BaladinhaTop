@@ -13,9 +13,6 @@
 		1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695D7FD26431A6300C75E4C /* ExplicacaoViewController.swift */; };
 		16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF70AD264182390056D39C /* BemVindoScreen.storyboard */; };
 		16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CF70AF264183580056D39C /* BemVindoViewController.swift */; };
-		532DAFF126471B9300CBF7ED /* FestaListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DAFEE26471B9300CBF7ED /* FestaListaViewController.swift */; };
-		532DAFF226471B9300CBF7ED /* FestaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532DAFEF26471B9300CBF7ED /* FestaViewCell.swift */; };
-		532DAFF326471B9300CBF7ED /* FestaListaScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532DAFF026471B9300CBF7ED /* FestaListaScreen.storyboard */; };
 		53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8D26417C18003BEA59 /* AppDelegate.swift */; };
 		53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F8F26417C18003BEA59 /* SceneDelegate.swift */; };
 		53318F9226417C18003BEA59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318F9126417C18003BEA59 /* ViewController.swift */; };
@@ -24,6 +21,9 @@
 		53318FA526417C19003BEA59 /* BaladinhaTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FA426417C19003BEA59 /* BaladinhaTopTests.swift */; };
 		53318FB026417C19003BEA59 /* BaladinhaTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */; };
 		534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */; };
+		5372B4D3264D505C0085218F /* FestaListaScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5372B4D0264D505B0085218F /* FestaListaScreen.storyboard */; };
+		5372B4D4264D505C0085218F /* FestaListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5372B4D1264D505C0085218F /* FestaListaViewController.swift */; };
+		5372B4D5264D505C0085218F /* FestaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5372B4D2264D505C0085218F /* FestaViewCell.swift */; };
 		538280012645C6C600E0A172 /* PerfilDaFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */; };
 		538280032645EA5800E0A172 /* LoginAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538280022645EA5800E0A172 /* LoginAnfitriaoViewController.swift */; };
 		538280042645EB4E00E0A172 /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */; };
@@ -58,9 +58,6 @@
 		16CF70AD264182390056D39C /* BemVindoScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BemVindoScreen.storyboard; sourceTree = "<group>"; };
 		16CF70AF264183580056D39C /* BemVindoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemVindoViewController.swift; sourceTree = "<group>"; };
 		5311180B2644C85E00467A59 /* PerfilDaFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDaFestaViewController.swift; sourceTree = "<group>"; };
-		532DAFEE26471B9300CBF7ED /* FestaListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FestaListaViewController.swift; path = ../../../../../Downloads/FeedFestas/FestaListaViewController.swift; sourceTree = "<group>"; };
-		532DAFEF26471B9300CBF7ED /* FestaViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FestaViewCell.swift; path = ../../../../../Downloads/FeedFestas/FestaViewCell.swift; sourceTree = "<group>"; };
-		532DAFF026471B9300CBF7ED /* FestaListaScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FestaListaScreen.storyboard; path = ../../../../../Downloads/FeedFestas/FestaListaScreen.storyboard; sourceTree = "<group>"; };
 		53318F8A26417C18003BEA59 /* BaladinhaTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaladinhaTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53318F8D26417C18003BEA59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53318F8F26417C18003BEA59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +72,9 @@
 		53318FAF26417C19003BEA59 /* BaladinhaTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaladinhaTopUITests.swift; sourceTree = "<group>"; };
 		53318FB126417C19003BEA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534011F326420A2100C2C302 /* PerfilAnfitriao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PerfilAnfitriao.storyboard; sourceTree = "<group>"; };
+		5372B4D0264D505B0085218F /* FestaListaScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FestaListaScreen.storyboard; sourceTree = "<group>"; };
+		5372B4D1264D505C0085218F /* FestaListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestaListaViewController.swift; sourceTree = "<group>"; };
+		5372B4D2264D505C0085218F /* FestaViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestaViewCell.swift; sourceTree = "<group>"; };
 		538280022645EA5800E0A172 /* LoginAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnfitriaoViewController.swift; sourceTree = "<group>"; };
 		538868762645A25200D9E40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
@@ -108,16 +108,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		532DAFED26471B5100CBF7ED /* FeedFestas */ = {
-			isa = PBXGroup;
-			children = (
-				532DAFF026471B9300CBF7ED /* FestaListaScreen.storyboard */,
-				532DAFEE26471B9300CBF7ED /* FestaListaViewController.swift */,
-				532DAFEF26471B9300CBF7ED /* FestaViewCell.swift */,
-			);
-			path = FeedFestas;
-			sourceTree = "<group>";
-		};
 		53318F8126417C18003BEA59 = {
 			isa = PBXGroup;
 			children = (
@@ -218,9 +208,19 @@
 		534D6BDC26418F59009DB26B /* Baladeiro */ = {
 			isa = PBXGroup;
 			children = (
-				532DAFED26471B5100CBF7ED /* FeedFestas */,
+				5372B4CF264D50260085218F /* FeedFestas */,
 			);
 			path = Baladeiro;
+			sourceTree = "<group>";
+		};
+		5372B4CF264D50260085218F /* FeedFestas */ = {
+			isa = PBXGroup;
+			children = (
+				5372B4D0264D505B0085218F /* FestaListaScreen.storyboard */,
+				5372B4D1264D505C0085218F /* FestaListaViewController.swift */,
+				5372B4D2264D505C0085218F /* FestaViewCell.swift */,
+			);
+			path = FeedFestas;
 			sourceTree = "<group>";
 		};
 		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
@@ -336,7 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CF70AE264182390056D39C /* BemVindoScreen.storyboard in Resources */,
-				532DAFF326471B9300CBF7ED /* FestaListaScreen.storyboard in Resources */,
+				5372B4D3264D505C0085218F /* FestaListaScreen.storyboard in Resources */,
 				162D26B4264376CB007125CF /* EscolhaDoPerfil.storyboard in Resources */,
 				53318F9A26417C19003BEA59 /* LaunchScreen.storyboard in Resources */,
 				534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */,
@@ -370,10 +370,10 @@
 			files = (
 				53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
-				532DAFF226471B9300CBF7ED /* FestaViewCell.swift in Sources */,
+				5372B4D5264D505C0085218F /* FestaViewCell.swift in Sources */,
 				162D26B6264376E0007125CF /* EscolhaDoPerfilViewController.swift in Sources */,
 				53318F8E26417C18003BEA59 /* AppDelegate.swift in Sources */,
-				532DAFF126471B9300CBF7ED /* FestaListaViewController.swift in Sources */,
+				5372B4D4264D505C0085218F /* FestaListaViewController.swift in Sources */,
 				16CF70B0264183580056D39C /* BemVindoViewController.swift in Sources */,
 				538280042645EB4E00E0A172 /* PerfilAnfitriaoViewController.swift in Sources */,
 				538280012645C6C600E0A172 /* PerfilDaFestaViewController.swift in Sources */,
