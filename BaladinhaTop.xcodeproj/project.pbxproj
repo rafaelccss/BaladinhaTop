@@ -28,6 +28,10 @@
 		538280032645EA5800E0A172 /* LoginAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538280022645EA5800E0A172 /* LoginAnfitriaoViewController.swift */; };
 		538280042645EB4E00E0A172 /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */; };
 		538868772645A25200D9E40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538868762645A25200D9E40D /* Assets.xcassets */; };
+		53B826DF264EBEF900219780 /* AlertaScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B826DC264EBEF900219780 /* AlertaScreen.storyboard */; };
+		53B826E0264EBEF900219780 /* AlertaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B826DD264EBEF900219780 /* AlertaService.swift */; };
+		53B826E1264EBEF900219780 /* AlertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B826DE264EBEF900219780 /* AlertaViewController.swift */; };
+		53B826E3264EC47F00219780 /* PartyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B826E2264EC47F00219780 /* PartyClass.swift */; };
 		53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB53692642C73500A79433 /* CriarFestaViewController.swift */; };
 		EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */; };
 		EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC75CFD264197F00060A1C6 /* LoginViewController.swift */; };
@@ -77,6 +81,10 @@
 		5372B4D2264D505C0085218F /* FestaViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestaViewCell.swift; sourceTree = "<group>"; };
 		538280022645EA5800E0A172 /* LoginAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnfitriaoViewController.swift; sourceTree = "<group>"; };
 		538868762645A25200D9E40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B826DC264EBEF900219780 /* AlertaScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlertaScreen.storyboard; sourceTree = "<group>"; };
+		53B826DD264EBEF900219780 /* AlertaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertaService.swift; sourceTree = "<group>"; };
+		53B826DE264EBEF900219780 /* AlertaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertaViewController.swift; sourceTree = "<group>"; };
+		53B826E2264EC47F00219780 /* PartyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyClass.swift; sourceTree = "<group>"; };
 		53DA4ED82641C5FF00A099F5 /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
 		53EB53692642C73500A79433 /* CriarFestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarFestaViewController.swift; sourceTree = "<group>"; };
 		EEC75CFB264197D00060A1C6 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
@@ -133,6 +141,7 @@
 			children = (
 				53318F9126417C18003BEA59 /* ViewController.swift */,
 				53318F9326417C18003BEA59 /* Main.storyboard */,
+				53B826DB264EBEE700219780 /* Alerta */,
 				533566842641C19B00D0D0D2 /* Anfitriao */,
 				534D6BDC26418F59009DB26B /* Baladeiro */,
 				534D6BD926418E13009DB26B /* TelasDeEntrada */,
@@ -219,8 +228,19 @@
 				5372B4D0264D505B0085218F /* FestaListaScreen.storyboard */,
 				5372B4D1264D505C0085218F /* FestaListaViewController.swift */,
 				5372B4D2264D505C0085218F /* FestaViewCell.swift */,
+				53B826E2264EC47F00219780 /* PartyClass.swift */,
 			);
 			path = FeedFestas;
+			sourceTree = "<group>";
+		};
+		53B826DB264EBEE700219780 /* Alerta */ = {
+			isa = PBXGroup;
+			children = (
+				53B826DC264EBEF900219780 /* AlertaScreen.storyboard */,
+				53B826DD264EBEF900219780 /* AlertaService.swift */,
+				53B826DE264EBEF900219780 /* AlertaViewController.swift */,
+			);
+			path = Alerta;
 			sourceTree = "<group>";
 		};
 		EEC75CFA2641972D0060A1C6 /* TelaDeLogin */ = {
@@ -342,6 +362,7 @@
 				534011F426420A2100C2C302 /* PerfilAnfitriao.storyboard in Resources */,
 				EEC75CFC264197D00060A1C6 /* LoginScreen.storyboard in Resources */,
 				53318F9526417C18003BEA59 /* Main.storyboard in Resources */,
+				53B826DF264EBEF900219780 /* AlertaScreen.storyboard in Resources */,
 				538868772645A25200D9E40D /* Assets.xcassets in Resources */,
 				1695D7FC26431A3E00C75E4C /* ExplicacaoScreen.storyboard in Resources */,
 			);
@@ -369,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53EB536A2642C73500A79433 /* CriarFestaViewController.swift in Sources */,
+				53B826E3264EC47F00219780 /* PartyClass.swift in Sources */,
 				53318F9226417C18003BEA59 /* ViewController.swift in Sources */,
 				5372B4D5264D505C0085218F /* FestaViewCell.swift in Sources */,
 				162D26B6264376E0007125CF /* EscolhaDoPerfilViewController.swift in Sources */,
@@ -380,7 +402,9 @@
 				EEC75CFE264197F00060A1C6 /* LoginViewController.swift in Sources */,
 				1695D7FE26431A6300C75E4C /* ExplicacaoViewController.swift in Sources */,
 				538280032645EA5800E0A172 /* LoginAnfitriaoViewController.swift in Sources */,
+				53B826E0264EBEF900219780 /* AlertaService.swift in Sources */,
 				53318F9026417C18003BEA59 /* SceneDelegate.swift in Sources */,
+				53B826E1264EBEF900219780 /* AlertaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
