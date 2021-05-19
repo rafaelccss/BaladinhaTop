@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--BemVindoScreen-->
+        <!--FestaListaScreen-->
         <scene sceneID="uXx-DG-sQR">
             <objects>
-                <viewControllerPlaceholder storyboardName="BemVindoScreen" referencedIdentifier="BemVindoScreen" id="vv3-8o-djq" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="FestaListaScreen" referencedIdentifier="FestaListaScreen" id="vv3-8o-djq" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="JRv-Bt-tF3"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpe-CR-W96" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

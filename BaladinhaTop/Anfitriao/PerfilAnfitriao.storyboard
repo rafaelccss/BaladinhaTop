@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,21 +14,21 @@
             <objects>
                 <viewController title="Chika do Barzin" id="Y6W-OH-hqX" customClass="PerfilAnfitriaoViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R6v-1I-nH7">
-                                <rect key="frame" x="45.333333333333343" y="177.66666666666666" width="299.33333333333326" height="400.66666666666674"/>
+                                <rect key="frame" x="48" y="191.66666666666663" width="318" height="425"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="hojeVouFestar" translatesAutoresizingMaskIntoConstraints="NO" id="7Yb-3u-sbt">
-                                        <rect key="frame" x="161" y="220.66666666666663" width="138.33333333333337" height="180"/>
+                                        <rect key="frame" x="171" y="234" width="147" height="191"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="ouz-6q-CRv" appends="YES" id="3Kq-8b-rJA"/>
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="oferecerFesta" translatesAutoresizingMaskIntoConstraints="NO" id="CNs-dN-Xk2">
-                                        <rect key="frame" x="0.0" y="0.0" width="138.33333333333334" height="180"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="147" height="191"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="CNs-dN-Xk2" secondAttribute="height" multiplier="147:191" id="h1e-6f-rhG"/>
@@ -38,14 +38,14 @@
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="reputacao" translatesAutoresizingMaskIntoConstraints="NO" id="idO-BS-K9Y">
-                                        <rect key="frame" x="161" y="0.0" width="138.33333333333337" height="180"/>
+                                        <rect key="frame" x="171" y="0.0" width="147" height="191"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="tzy-U8-pYU" appends="YES" id="EFL-jI-LAb"/>
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="minhasFestas" translatesAutoresizingMaskIntoConstraints="NO" id="PcT-28-oN4">
-                                        <rect key="frame" x="0.0" y="220.66666666666663" width="138.33333333333334" height="180"/>
+                                        <rect key="frame" x="0.0" y="234" width="147" height="191"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="Nd7-W8-v8Z" appends="YES" id="avK-6u-bFR"/>
@@ -120,17 +120,17 @@
             <objects>
                 <viewController storyboardIdentifier="criarFesta" title="Criar festa" id="p8j-un-tmr" customClass="CriarFestaViewController" customModule="BaladinhaTop" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hpu-EV-N4D">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome da festa? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZE-wB-A1X">
-                                <rect key="frame" x="33" y="35" width="124" height="21"/>
+                                <rect key="frame" x="33.333333333333343" y="35" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n8c-Xb-70G">
-                                <rect key="frame" x="33" y="60" width="324" height="34"/>
+                                <rect key="frame" x="33.333333333333343" y="60" width="347.33333333333326" height="34"/>
                                 <color key="backgroundColor" name="backgroundColorTextField"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -142,19 +142,19 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insira uma imagem do ambiente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofz-2R-Cdr">
-                                <rect key="frame" x="33" y="129" width="243" height="21"/>
+                                <rect key="frame" x="33.333333333333343" y="129" width="243.00000000000003" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insira uma breve descrição" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVd-wZ-EBm">
-                                <rect key="frame" x="33" y="313.66666666666669" width="204" height="21"/>
+                                <rect key="frame" x="33.333333333333343" y="323" width="204" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ju0-BK-RKc">
-                                <rect key="frame" x="33" y="338.66666666666669" width="324" height="125"/>
+                                <rect key="frame" x="33.333333333333343" y="348" width="347.33333333333326" height="134"/>
                                 <color key="backgroundColor" name="backgroundColorTextField"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ju0-BK-RKc" secondAttribute="height" multiplier="83:32" id="RVw-ox-gnG"/>
@@ -169,7 +169,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vtx-Ow-03b">
-                                <rect key="frame" x="33" y="523.66666666666663" width="324" height="124.66666666666663"/>
+                                <rect key="frame" x="33.333333333333343" y="542" width="347.33333333333326" height="134"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vtx-Ow-03b" secondAttribute="height" multiplier="83:32" id="N1A-em-o3H"/>
                                 </constraints>
@@ -180,13 +180,13 @@
                                 </userDefinedRuntimeAttributes>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insira a localização da sua festa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJt-oS-HVt">
-                                <rect key="frame" x="33" y="498.66666666666669" width="240" height="21.000000000000057"/>
+                                <rect key="frame" x="33.333333333333343" y="517" width="240.00000000000003" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXp-hq-086">
-                                <rect key="frame" x="52" y="684.33333333333337" width="286" height="32.333333333333371"/>
+                                <rect key="frame" x="53.666666666666657" y="712" width="306.66666666666674" height="32.333333333333371"/>
                                 <color key="backgroundColor" red="0.51425378700000002" green="0.26661739330000001" blue="0.68483333390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal">
@@ -204,7 +204,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="22y-lz-O6z">
-                                <rect key="frame" x="33" y="154" width="324" height="124.66666666666669"/>
+                                <rect key="frame" x="33.333333333333343" y="154" width="347.33333333333326" height="134"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="22y-lz-O6z" secondAttribute="height" multiplier="83:32" id="8zj-JC-cne"/>
                                 </constraints>
@@ -255,7 +255,7 @@
             <objects>
                 <viewController id="1Xl-xl-cEL" customClass="PerfilDaFestaViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b3T-qk-hCL">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Q6-SE-dhQ">
@@ -478,7 +478,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5zx-ia-seo" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8ZG-pX-svS">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -495,18 +495,18 @@
             <objects>
                 <viewController storyboardIdentifier="perfilAnfitriao" title="Login Anfitrião" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8bT-Rg-um2" customClass="LoginAnfitriaoViewController" customModule="BaladinhaTop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C7P-gi-ToQ">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="5N1-36-xGv">
-                                <rect key="frame" x="142" y="147" width="106" height="77"/>
+                                <rect key="frame" x="154" y="147" width="106" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="7GB-45-uC2"/>
                                     <constraint firstAttribute="width" constant="106" id="NKQ-L1-vyd"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TvN-9k-HiY" userLabel="InputsView">
-                                <rect key="frame" x="45" y="294" width="300" height="156"/>
+                                <rect key="frame" x="57" y="294" width="300" height="156"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="51J-3n-vA0">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="34"/>
@@ -565,7 +565,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uid-hr-RvV" userLabel="FaceLoginView">
-                                <rect key="frame" x="93" y="494.99999999999994" width="204" height="83.333333333333314"/>
+                                <rect key="frame" x="105" y="494.99999999999994" width="204" height="83.333333333333314"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="ndS-Eu-tOx">
                                         <rect key="frame" x="0.0" y="20.333333333333368" width="42" height="42.666666666666657"/>

@@ -21,7 +21,7 @@ class ExplicacaoViewController: UIViewController {
     var paginaQueEstamos = 1
     
     @IBAction func voltarButton(_ sender: Any) {
-		if paginaQueEstamos > 1{
+		if paginaQueEstamos > 1 {
 			paginaQueEstamos = paginaQueEstamos - 1
 		} else if paginaQueEstamos > 3 {
 			paginaQueEstamos = 1

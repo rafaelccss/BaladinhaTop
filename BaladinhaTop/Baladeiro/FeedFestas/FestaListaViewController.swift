@@ -21,6 +21,8 @@ class FestaListaViewController: UIViewController, UITableViewDataSource, UITable
         super.viewDidLoad()
         setUpParties()
         setUpSearchBar()
+//        table.dataSource = self
+//        table.delegate = self
     }
     
     func setUpSearchBar() {
@@ -105,12 +107,21 @@ class FestaListaViewController: UIViewController, UITableViewDataSource, UITable
 }
 
 
+
 extension FestaListaViewController {
-    override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        print("leadingSwipeActionsConfigurationForRowAt")
         
-        let favorite =  currentPartyArray[indexPath.row].add
+        let adding = currentPartyArray[indexPath.row].add
         
-        let title = favorite ? NSLocalizedString("Adicionar", comment: "Adicionar") : NSLocalizedString("Remover", comment: "Remover")
-        let action = UIContextualAction(style: .normal, title: title, handler: <#T##UIContextualAction.Handler##UIContextualAction.Handler##(UIContextualAction, UIView, @escaping (Bool) -> Void) -> Void#>)
+        let title = adding ? NSLocalizedString("Adicionar", comment: "Adicionar") : NSLocalizedString("Remover", comment: "Remover")
+        let action = UIContextualAction(style: .normal, title: title, handler: { (action, view, completationHandler) in
+            //        self.currentPartyArray[indexPath.row].add = !adding
+            print("Rafael")
+            completationHandler(true)
+        })
+        action.backgroundColor = adding ? .green : .red
+        let configuration = UISwipeActionsConfiguration(actions: [action])
+        return configuration
     }
 }

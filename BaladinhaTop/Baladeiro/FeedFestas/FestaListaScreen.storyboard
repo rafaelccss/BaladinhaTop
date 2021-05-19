@@ -129,8 +129,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="vGN-aQ-Cla"/>
-                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="Wwe-b2-QXV"/>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="W5w-mF-af4"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="rZw-CQ-Lw0"/>
                                 </connections>
                             </tableView>
                         </subviews>

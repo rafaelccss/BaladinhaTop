@@ -7,7 +7,7 @@ class Party {
     let tagOne: String
     let tagTwo: String
     let tagThree: String
-    let add: Bool
+    var add: Bool
     
     init(imageView: String, titleParty: String, hostName: String, eventDate: String, tagOne: String, tagTwo: String, tagThree: String, add: Bool) {
         self.imageView = imageView
